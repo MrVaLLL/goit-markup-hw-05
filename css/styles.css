@@ -16,7 +16,7 @@ body {
   background-color: #ffffff;
   font-style: normal;
   color: #757575;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 ul {
@@ -61,38 +61,21 @@ img {
 
 /* Шапка */
 .page-header {
-  position: fixed;
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 
+  /* position: fixed;
   width: 100%;
   min-height: 80px;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 1; */
 }
 
 .div-navigation {
   display: flex;
   align-items: center;
 }
-
-/* 
-
-*/
-.position {
-  z-index: 2;
-  right: auto;
-  left: auto;
-
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-  background-size: contain;
-}
-/* 
-
-*/
 
 .nav {
   display: flex;
@@ -166,7 +149,7 @@ img {
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  
+
   background-color: var(--link-color);
   margin-bottom: -1px;
 }
@@ -213,7 +196,6 @@ img {
 /* SLOGAN */
 
 .slogan {
-  min-height: 100vh;
   background-color: #000000;
   display: block;
   text-align: center;
@@ -362,10 +344,34 @@ img {
   margin-left: -30px;
 }
 .working-foto {
+  position: relative;
   margin-left: 30px;
   flex-basis: calc((100% - 30px * 3) / 3);
 }
 
+.working-text {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  color: #ffffff;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.work-position {
+  position: absolute;
+  bottom: 0;
+  left: 0s;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 /* наша команда, имена*/
 .section-command {
   background-color: #f5f4fa;
@@ -752,4 +758,15 @@ img {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  color: #000000;
+  cursor: pointer;
+ border-radius: 50%;
 }

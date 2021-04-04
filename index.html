@@ -20,7 +20,7 @@
   <body>
     <!--Шапка-->
     <header class="page-header">
-      <div class="container div-navigation position">
+      <div class="container div-navigation">
         <nav class="nav">
           <a class="logo" href="./index.html"><span class="web">Web</span><span class="studio">Studio</span> </a>
           <ul class="menu">
@@ -114,13 +114,16 @@
           <!-- Изображение занятий -->
           <ul class="working">
             <li class="working-foto">
+              <div class="work-position"><p class="working-text">Десктопные приложения</p></div>
               <img src="./images/box_1.jpg" width="370" height="294" alt="компьютер" />
             </li>
 
             <li class="working-foto">
+              <div class="work-position"><p class="working-text">Мобильные приложения</p></div>
               <img src="./images/box_2.jpg" width="370" height="294" alt="телефон" />
             </li>
             <li class="working-foto">
+              <div class="work-position"><p class="working-text">Дизайнерские решения</p></div>
               <img src="./images/box_3.jpg" width="370" height="294" alt="планшет" />
             </li>
           </ul>
@@ -430,7 +433,9 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button data-modal-close>Закрыть</button>
+        <button class="close" data-modal-close><svg>
+          <use href="" ></use>
+        </svg></button>
       </div>
     </div>
 
