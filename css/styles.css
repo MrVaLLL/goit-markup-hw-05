@@ -735,6 +735,7 @@ img {
 }
 
 /* backdrop!! */
+/* Всплывающее окно Заказать услугу */
 .backdrop {
   position: fixed;
   top: 0;
@@ -753,8 +754,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  min-width: 400px;
-  min-height: 700px;
+  min-width: 528px;
+  min-height: 580px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -764,9 +765,12 @@ img {
   position: absolute;
   right: 8px;
   top: 8px;
-  width: 20px;
-  height: 20px;
-  color: #000000;
-  cursor: pointer;
- border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none;
+
+  border-radius: 50%;
 }
