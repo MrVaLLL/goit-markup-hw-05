@@ -726,7 +726,6 @@ img {
   flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
   margin-left: 30px;
   margin-top: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .card-set-item:hover,
