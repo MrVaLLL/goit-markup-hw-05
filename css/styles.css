@@ -217,7 +217,7 @@ img {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero.jpg');
 }
 
-.animate__zoomInDown {
+.animate__lightSpeedInLeft {
   max-width: 696px;
   /* padding: auto; */
   margin-left: auto;
@@ -231,17 +231,16 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 
-  animation: azoomInDown;
+  animation: lightSpeedInLeft;
   animation-duration: 4s;
   /* сколько раз повтарять */
   animation-delay: 4000ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   animation-iteration-count: infinite;
-  animation-direction: alternate;
   /*  */
 }
 
-.animate__rollIn:hover {
+.animate__lightSpeedInLeft:hover {
   animation-play-state: paused;
 }
 
