@@ -176,7 +176,6 @@
                   </li>
                 </ul>
               </div>
-              <!-- социальные сети -->
             </li>
 
             <li class="people-item">
@@ -360,7 +359,7 @@
     <!--Подвал-->
     <footer class="footer">
       <div class="container footer-web">
-        <div class="footer-box-info footer-webstudio">
+        <div class="footer-webstudio">
           <a class="webstudi-o" href="./index.html"><span class="web">Web</span><span class="studi-o">Studio</span> </a>
           <address class="footer-adress">
             <a
@@ -383,7 +382,7 @@
           </address>
         </div>
 
-        <div class="footer-box-social footer-webstudio">
+        <div class="footer-webstudio">
           <h3 class="footer-title">Присоединятесь</h3>
           <ul class="footer-cards">
             <li class="footer-social">
@@ -419,6 +418,22 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-webstudio">
+          <h2 class="footer-title">Подпишитесь на рассылку</h2>
+          <form class="form-subscribe" type="email" name="email" placeholder="Email">
+            <label for="">
+              <input class="subscribe-input" type="email" name="email" placeholder="E-mail" />
+            </label>
+
+            <button class="subscribe-button" type="submit">
+              <span class="btn-button indent">Отправить</span>
+              <svg class="symboll" width="24" height="24">
+                <use href="./images/icons/iconsvg.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Всплывающее окно заказать услугу -->
@@ -429,6 +444,7 @@
             <use href="./images/icons/veco.svg#icon-vec"></use>
           </svg>
         </button>
+
         <form class="form" name="signup_form" autocomplete="on" novalidate>
           <h2 class="form-h2">Оставьте свои данные, мы вам перезвоним</h2>
           <div>
@@ -458,6 +474,7 @@
               <input type="password" name="password" placeholder="Введите текст" />
             </label>
           </div>
+
           <div class="">
             <p>
               Соглашаюсь с рассылкой и принимаю<a href="" target="_blank" rel="noopener noreferrer">
@@ -465,12 +482,10 @@
               </a>
             </p>
           </div>
+
           <div>
             <button class="btn-slogan" type="submit">
               <span class="btn-button">Отправить</span>
-              <svg class="symboll" width="24" height="24">
-                <use href="./images/icons/iconsvg.svg#icon-icon-send"></use>
-              </svg>
             </button>
           </div>
         </form>
